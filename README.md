@@ -19,4 +19,10 @@ PDS: Percentage of Different Structures
 
 此代码计算结果与Vaa3d中neuron_dist插件计算结果前3位小数均一致，方便用于批量计算。
 
+添加：Python版本。输出与C++版本完全一致
+
+推荐使用numba 或者 kdtree版本，pure版本特别慢。
+
+Hint: recommend use neuron_dist_numba.py or neuron_dist.kdtree.py
+
 
